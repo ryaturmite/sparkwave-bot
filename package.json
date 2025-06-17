@@ -1,0 +1,16 @@
+{
+    "name": "sparkwave-bot",
+    "version": "1.0.0",
+    "description": "Sparkwave Discord Bot",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "prestart": "npm install discord.js",
+      "postinstall": "echo 'discord.js installed'"
+    },
+    "dependencies": {
+      "discord.js": "^14.0.0", 
+      "dotenv": "^16.0.0"
+    }
+  }
+  
